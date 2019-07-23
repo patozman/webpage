@@ -1351,6 +1351,10 @@ body .line-button-three:hover,
   margin-left: 0;
 }
 
+.theme-menu-one .header-right-widget .contact-us {
+  margin-right: 80px;
+}
+
 .theme-menu-one .header-right-widget {
   position: absolute;
   top: 52px;
@@ -2453,10 +2457,12 @@ body .line-button-three:hover,
 }
 
 .agn-what-we-do .single-block .icon .shape {
-  position: absolute;
+  /* position: absolute;
   top: 35px;
   left: 10px;
-  z-index: 1;
+  z-index: 1; */
+  margin: 0 auto;
+  height: 72px;
 }
 
 .agn-what-we-do .single-block .title {
@@ -2465,9 +2471,9 @@ body .line-button-three:hover,
   padding: 35px 0 35px;
 }
 
-.agn-what-we-do .single-block p {
+/* .agn-what-we-do .single-block p {
   padding-right: 90px;
-}
+} */
 
 .agn-what-we-do .single-block .more-button {
   font-size: 15px;
