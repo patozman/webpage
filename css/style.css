@@ -1335,11 +1335,14 @@ body .line-button-three:hover,
 .theme-menu-one .logo {
   position: absolute;
   top: -1px;
+  width: 8%;
+  height: auto;
   left: 0;
   z-index: 3;
 }
 
 .theme-menu-one .logo a {
+  margin: 20px 20px;
   display: block;
 }
 
@@ -1352,7 +1355,7 @@ body .line-button-three:hover,
 }
 
 .theme-menu-one .header-right-widget .contact-us {
-  margin-right: 80px;
+  margin-left: 10px;
 }
 
 .theme-menu-one .header-right-widget {
@@ -1373,7 +1376,7 @@ body .line-button-three:hover,
   text-transform: uppercase;
   color: #233D63;
   font-size: 16px;
-  margin: 0 45px 0 40px;
+  margin: 0 80px 0 40px;
 }
 
 .theme-menu-one .header-right-widget .language-switcher .dropdown-menu {
@@ -1761,6 +1764,7 @@ body .line-button-three:hover,
 #theme-banner-one {
   background: url(../images/shape/1.png) no-repeat top right;
   position: relative;
+  margin-right: 10;
 }
 
 #theme-banner-one .main-wrapper {
@@ -1810,6 +1814,7 @@ body .line-button-three:hover,
 #theme-banner-one .illustration {
   position: absolute;
   right: 8%;
+  margin-right: 20px;
   top: 27%;
 }
 
@@ -1981,6 +1986,7 @@ body .line-button-three:hover,
   right: 10%;
   top: 28%;
   z-index: 1;
+  margin-right: 10px;
   max-width: 47%;
 }
 
@@ -11719,6 +11725,7 @@ body .line-button-three:hover,
 
 .signUp-illustration img {
   position: absolute;
+  margin-right: 10px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -12792,7 +12799,7 @@ Modal animation
 }
 
 .shrt-menu .contact-us {
-  margin-left: 35px;
+  margin-left: 0 35px 0;
 }
 
 .shrt-menu.light-bg {
@@ -12869,7 +12876,7 @@ Modal animation
   text-transform: uppercase;
   color: #233D63;
   font-size: 14px;
-  margin: 0 20px 0;
+  margin: 0 20px 0 100px;
   padding: 0 20px;
   border-left: 1px solid #ececec;
   border-right: 1px solid #ececec;
